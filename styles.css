@@ -17,8 +17,13 @@ a {
   text-decoration: none;
   color: #999;
 }
+
+.a2 {
+  text-decoration: none;
+  color: black;
+}
 a:hover {
-  color: #6633ff;
+  color: blue;
 }
 
 /* Section Styles */
@@ -98,8 +103,13 @@ header .profile-image:hover {
   border: 4px solid #ccc;
   border-radius: 6px;
   transition: all 1.5s;
+  
 }
 
+.hobby {
+  text-align: left;
+  color:black;
+}
 
 .card:hover {
   border-color: black;
@@ -154,8 +164,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.mailto {
+  background-image: url(images/mail.png);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
