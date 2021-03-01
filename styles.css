@@ -75,6 +75,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -99,6 +100,18 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: center;
+  background: #fff;
+  border: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all 1.5s;
+  
+}
+
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
   background: #fff;
   border: 4px solid #ccc;
   border-radius: 6px;
